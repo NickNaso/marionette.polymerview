@@ -8,7 +8,7 @@ Marionette.PolymerView = Marionette.View.extend({
   },
 
   _setPublishedKeys: function() {
-    this._publishedKeys = _.keys(this.el.publish);
+    this._publishedKeys = _.keys(this.el.properties);
   },
 
   _initAttrsFromModel: function() {
